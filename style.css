@@ -1,0 +1,363 @@
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  margin: 50px;
+  text-align: center;
+  background-color: #000000;
+  border-radius: 20px;
+  width: 40vw;
+  height: auto;
+  color: white;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin: 2px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 40vw;
+  height: auto;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  box-shadow: 10px 10px 5px #000000;
+}
+
+h3 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin: 2px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 40vw;
+  height: auto;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+
+  font-size: 3em;
+}
+
+h4 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin: 2px;
+  text-align: justify;
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 80vw;
+  height: auto;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 1.5em;
+}
+h5 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 80vw;
+  height: auto;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+
+  font-size: 1.5em;
+}
+
+.loc-style {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.5;
+  color: #000000;
+}
+p {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.5;
+  color: white;
+  text-shadow: #ddd;
+  box-shadow: 10px 10px 5px #000000;
+  text-shadow: 2px 2px #7f7f7fce;
+}
+nav {
+  background-color: rgb(42, 42, 42);
+  width: 100%;
+  box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+header {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+}
+
+.alamat {
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+
+  margin: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+iframe {
+  border-radius: 50px;
+
+  box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cover-header {
+  background-image: url("/asset/pic/cover-trapokez.png");
+  background-size: cover;
+  background-position: center;
+  height: 25vh;
+
+  margin: 0px;
+  border-radius: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  box-shadow: 10px 10px 5px #878787;
+}
+
+.logotrpkz {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  z-index: 1;
+  animation: spin 5s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.menu {
+  list-style-type: none;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5%;
+  font-size: large;
+  margin: 0px;
+}
+.sub-menu {
+  padding: 0.5vw;
+  margin: 0;
+}
+
+.sub-menu:hover {
+  background-color: rgb(130, 130, 130);
+  border-radius: 12px;
+}
+
+.about-text {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.pic-service {
+  width: 250px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+footer {
+  bottom: 0;
+  background-color: rgb(1, 1, 1);
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.cp-text {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.artist {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+.main-card-artist {
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  background-color: #e8e8e8;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 60%;
+  height: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 5px #848484;
+}
+.card-artist {
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  background-color: #353535;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  align-items: center;
+  width: 30vh;
+  height: 40vh;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.picartist {
+  object-fit: contain;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 50vw;
+  height: 50%;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 5px #000000;
+
+  opacity: 1;
+  display: block;
+  width: 100%;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.artist-hover-middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  display: flex;
+}
+.artist-text-hover {
+  background-color: #4caf50;
+  border-radius: 20px;
+
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  padding: 16px 32px;
+}
+
+.card-artist:hover .picartist {
+  opacity: 0.3;
+}
+
+.card-artist:hover .artist-hover-middle {
+  opacity: 1;
+}
+
+@media (max-width: 250px) {
+  .pic-service {
+    width: 160px;
+  }
+  .menu {
+    font-size: 1em;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 0.5%;
+    gap: 10px;
+    margin: 0px;
+  }
+  h1{
+    font-size: 1em;
+  }
+  h4{
+    font-size: 2em;
+  }
+  h3 {
+
+  
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+
+  h4{
+    font-size: 1.1em;
+  }
+  h3 {
+
+  
+    font-size: 2em;
+  }
+  h5{
+    font-size: 1em;
+  }
+}
